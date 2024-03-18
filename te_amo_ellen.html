@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ellen, meu amor!</title>
+        <link rel="shortcut icon" href="assets/css/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Twitter Cards -->
+        <meta name="twitter:title" content="Parabéns meu Amor!" />
+        <meta name="twitter:description" content="Te amo! &#10084" />
+        <meta name="twitter:image" content="https://alexaquino.github.io/assets/css/images/facebook_feliz_aniversario_princesa.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <!-- Facebook Open Graph -->
+        <meta property="og:image" content="https://alexaquino.github.io/assets/css/images/facebook_feliz_aniversario_princesa.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width"  content="600" />
+        <meta property="og:image:height" content="315" />
+        <meta property="og:site_name" content="alexaquino.space" />
+        <meta property="og:title" content="Parabéns meu Amor!" />
+        <meta property="og:description" content="Te amo! &#10084" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://alexaquino.github.io/feliz_aniversario_princesa" />
+        <meta property="fb:app_id" content="1140424696044800" />
+        <meta property="fb:admins" content="100000462238479" />
+
+		<!-- CSS -->
+        <link rel="stylesheet" href="main_feliz_aniversario_princesa.css"/>
+        <link rel="stylesheet" href="assets/css/font-awesome-animation.min.css" >
+	</head>
+	<body class="loading">
+		<!-- Música de Fundo -->
+		<!-- <audio src="assets/audio/JaneiroAJaneiro.mp3" controls autoplay loop></audio> -->
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+                <!-- Header -->
+				<header id="header">
+				    <h1>Para meu amorr</h1>
+					<p>ANTES DE TUDO, CLIQUE NO ÍCONE DA MÚSICA E OUÇA ENQUANTO CONTINUA!!!</p>
+					<!-- Footer -->
+					<footer id="footer">
+						<span class="icon fa-volume-up" onclick="toggleAudio()"><span class="label">play</span></span>
+					</footer>
+					<p>Oiiii vida, eu sei que não é muito, mas espero que goste. Eu criei um instagram só nosso, literalmente só nosso e só para nós. Separei várias fotos nossas, mesmo as zuadas kkaskasksakas sinceramente elas são as que eu mais gosto</p>
+					<p>Eu queria dizer que você significa muito para mim, na verdade, acho que você significa tudo. Eu sempre te esperei, sem saber quem era você, sempre te procurei, mas quando eu finalmente cai no desamparo, você apareceu</p>
+					<p>Te amo, Ellen, você é o meu Sol!!!! Aqui vai o login</p>
+					<p>usuário: ourperfectworld_ne <br>senha: EuTeAmoMuito12@@</p>
+				    <nav>
+				        <ul>
+				            <li><a class="icon fa-heart faa-pulse animated" href="https://www.instagram.com/ourperfectworld_ne/"><span class="label">heart</span></a></li>
+                        </ul>
+				    </nav>
+				</header>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+
+			var audio = new Audio('JaneiroAJaneiro.mp3');
+    		var isPlaying = false;
+
+    		function toggleAudio() {
+    		    if (isPlaying) {
+    		        audio.pause();
+    		        isPlaying = false;
+    		    } else {
+    		        audio.play();
+    		        isPlaying = true;
+    		    }
+        	}
+		</script>
+	</body>
+</html>

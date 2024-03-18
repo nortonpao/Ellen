@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("https://raw.githubusercontent.com/nortonpao/MyDarling/main/assets/css/font-awesome.min.css");
+@import url("font-awesome.min.css");
 
 /*
 	Aerial by HTML5 UP
@@ -185,7 +185,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #d75973 url("https://github.com/nortonpao/MyDarling/blob/main/assets/css/images/bg_feliz_aniversario_princesa.png") bottom left; /* ALTERADO de bg.jpg para bg.png */
+		background: #d75973 url("images/bg_feliz_aniversario_princesa.png") bottom left; /* ALTERADO de bg.jpg para bg.png */
 		background-repeat: repeat-x;
 		background-attachment: fixed;
 		height: 100%;
@@ -312,7 +312,7 @@
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("https://github.com/nortonpao/MyDarling/blob/main/assets/css/images/overlay-patternBK.png"), url("https://raw.githubusercontent.com/nortonpao/MyDarling/main/assets/css/images/overlayBK.svg");
+		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
